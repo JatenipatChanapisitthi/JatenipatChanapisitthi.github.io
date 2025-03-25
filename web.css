@@ -1,7 +1,7 @@
 
   img{
     width: 250px;
-    border: 5px solid #333; /* ขอบหนา 5px และสี #333 */
+    border: 10px solid #333; /* ขอบหนา 5px และสี #333 */
     border-radius: 8px;      /* ทำให้ขอบมน */
     transition: transform 0.5s ease-in-out;
   }
