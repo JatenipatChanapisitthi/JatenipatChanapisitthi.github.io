@@ -1,20 +1,45 @@
-
-  img{
-    width: 250px;
-    border: 10px solid #333; /* ขอบหนา 5px และสี #333 */
-    border-radius: 8px;      /* ทำให้ขอบมน */
-    transition: transform 0.5s ease-in-out;
-  }
-  img:hover {
-    transform: scale(1.1); /* ขยายรูปภาพขึ้น 10% */
+*{
+  padding: 0px 0px;
+  margin: 0px 0px;
+  text-decoration: none;
+  list-style-type: none;
+  font-family:"Rubik";
+}
+center{
+  border: 1px #F2EFE7;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.main{
+  background-color: #48A6A7;
+  border: 10px solid #48A6A7;
+  border-radius: 5%;
+  margin: 10%;
+  padding: 10px 30px;
+}
+img{
+  width: 250px;
+  border: 10px solid #48A6A7; /* ขอบหนา 5px และสี #333 */
+  border-radius: 8px;      /* ทำให้ขอบมน */
+  transition: transform 0.5s ease-in-out;
+}
+img:hover {
+  transform: scale(1.1); /* ขยายรูปภาพขึ้น 10% */
 }
 
-  body{
-      background-color:#333;
-  }
-  H1{ 
-    font-family:"Rubik";
-  }
-  p{
-    font-family:  "Rubik", sans-serif;
-  }
+body{
+  background-color :#F2EFE7 ;
+}
+.so{
+  border: 1px solid #F2EFE7 ;
+}
+.so a{ 
+  color: #000;
+}
+.so :hover{ 
+  color:#F2EFE7;
+}
+/* .so :visited{
+  color:rgb(47, 249, 232);
+} */
