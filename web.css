@@ -4,6 +4,11 @@
   text-decoration: none;
   list-style-type: none;
   font-family:"Rubik";
+  
+}
+p{
+  font-family: "Rubik";
+  font-size: large;
 }
 center{
   border: 1px #F2EFE7;
@@ -19,26 +24,46 @@ center{
   padding: 10px 30px;
 }
 img{
+  margin: 4px;
   width: 250px;
-  border: 10px solid #48A6A7; /* ขอบหนา 5px และสี #333 */
+  border: 1px solid #48A6A7; /* ขอบหนา 5px และสี #333 */
   border-radius: 8px;      /* ทำให้ขอบมน */
-  transition: transform 0.5s ease-in-out;
+  border-radius: 10%;
 }
-img:hover {
-  transform: scale(1.1); /* ขยายรูปภาพขึ้น 10% */
-}
+
 
 body{
   background-color :#F2EFE7 ;
 }
-.so{
-  border: 1px solid #F2EFE7 ;
+.social{
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+  /* .so{
+    border: 1px solid black ;
+    border-radius: 10cm;
+    padding: 8px; 
+    transition: transform 0.5s ease-in-out;
+  } */
+
 .so a{ 
+  border: 1px  solid #000;
+  border-radius: 10cm;
+  padding: 8px;
   color: #000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.5s ease-in-out;
+  justify-content: center;
 }
-.so :hover{ 
+.so a:hover{ 
   color:#F2EFE7;
+  transform: scale(1.1); 
+  border: 1px solid#F2EFE7;
+
 }
 /* .so :visited{
   color:rgb(47, 249, 232);
