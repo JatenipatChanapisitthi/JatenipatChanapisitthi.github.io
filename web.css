@@ -68,3 +68,25 @@ body{
 /* .so :visited{
   color:rgb(47, 249, 232);
 } */
+
+ @media screen and (max-width: 768px) {
+  .main {
+    margin: 5%;
+    padding: 5px 15px;
+  }
+
+  img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .social {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .so a {
+    padding: 6px;
+    font-size: 14px;
+  }
+}
