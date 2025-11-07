@@ -26,28 +26,40 @@ center{
 img{
   margin: 4px;
   width: 250px;
-  border: 1px solid #48A6A7; /* ขอบหนา 5px และสี #333 */
-  border-radius: 8px;      /* ทำให้ขอบมน */
+  border: 1px solid #48A6A7; 
+  border-radius: 8px;     
   border-radius: 10%;
 }
 
-
-body{
-  background-color :#F2EFE7 ;
-
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  overflow-x: hidden;
 }
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('3.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5; 
+  z-index: -1;  
+}
+
 .social{
   margin-top: 16px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-  /* .so{
-    border: 1px solid black ;
-    border-radius: 10cm;
-    padding: 8px; 
-    transition: transform 0.5s ease-in-out;
-  } */
+
 
 .so a{ 
   border: 1px  solid #000;
